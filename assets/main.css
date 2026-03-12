@@ -1,0 +1,46 @@
+.bar-icon{
+    display: none;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.navbar .container .row{
+justify-content: space-between;
+}
+.ul-nav-bar ul{
+    display: flex;
+    width: 60vh;                     /* media*/
+    justify-content: space-around;
+}
+
+.ul-nav-bar ul li ,.logo-nav span{
+color: rgba(255, 255, 255, 0.7);
+transition: color .2s ;
+}
+.ul-nav-bar ul a li:hover,.logo-nav span:hover{
+color: #ffffff;
+
+}
+/* Media for nav-bar */
+/* . Small .*/
+
+@media (max-width: 480px) {
+
+.ul-nav-bar ul {
+display: none;
+}
+.bar-icon{
+    display: block;
+    margin-top: 10px;
+}
+
+}
+/* End of  Media for nav-bar */
+.img{
+    background-image: url(../images/img/bg-masthead.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
