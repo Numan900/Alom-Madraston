@@ -15,11 +15,11 @@ justify-content: space-between;
 }
 
 .ul-nav-bar ul li ,.logo-nav span{
-color: rgba(255, 255, 255, 0.7);
+color:var(--text-color);
 transition: color .2s ;
 }
 .ul-nav-bar ul a li:hover,.logo-nav span:hover{
-color: #ffffff;
+color:var(--header);
 
 }
 /* Media for nav-bar */
@@ -41,7 +41,7 @@ display: none;
 /* backgrouned For section 1 */
 .img{
     background-image: url(../images/img/bg-masthead.jpg);
-    height: 50vh;
+    height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -50,19 +50,19 @@ display: none;
 
 /* Strart Hero Section */
 .hero h1{
-color: #ffffff;
+color:var(--header);
 }
 .hero p{
-    color:rgba(255, 255, 255, 0.75);
+  color: var(--text-color);
 
 }
 .hero button{
     background-color: var(--orange-back);
-    color: #ffffff;
-    font-size: 20px;
+   color:var(--header);
+    font-size: var(--font-size-b);
     padding: 4px;
     border-radius: 10px;
-    transition: background-color .78s;
+    transition: background-color var(--tran-time);
 }
 .hero button:hover{
     background-color: rgb(194, 69, 34);
@@ -70,7 +70,7 @@ color: #ffffff;
 
 
 .hero .row .details-hero{
-    height: 50vh;
+    height: 100vh;
     text-align: center;
     margin-top: 15px;
     display: flex;
@@ -91,21 +91,92 @@ color: #ffffff;
 
 }
 .hero button{
-    font-size: 15px;
+   font-size: var(--font-size-b-small);
     padding: 2px;
     border-radius: 6px;
 }
 .hero h1{
-    font-size: 22px;
+    font-size: var(--font-size-h1-small);
 }
 .hero p{
-    font-size: 10px;
+    font-size:var(--font-size-p-small);
     margin: 5px 0;
+}
+.img{
+ 
+    height: 50vh;
+   
+}
+.hero .row .details-hero{
+    height: 40vh; 
 }
 
 
 }
 /* End For Media Quare For Hero Section */
+
+
+/* Find more Section */
+.find-more{
+    text-align: center;
+    background-color: var(--orange-back);
+}
+.find-more .row{
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.find-more .row p{
+    margin: 6px 0;
+    color: var(--text-color);
+}
+.find-more .row h2{
+    color:var(--header);
+}
+.find-more .row button{
+    background-color: var(--header);
+    color: black;
+    border-radius: 10px;
+    font-size: var(--font-size);
+    transition:background-color var(--tran-time) ;
+}
+.find-more .row button:hover{
+    background-color: #959ca3;
+}
+/* End Of Find more Section */
+/* Media Quare For Find More Section */
+/* . Small .*/
+
+@media (max-width: 540px) {
+.find-more .row h1{
+    font-size: var(--font-size-h1-small);
+    }
+
+.find-more .row p{
+    font-size:var(--font-size-p-small);
+    margin: 5px 0;
+}
+}
+/* End Of Media Quare For Find More Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
 

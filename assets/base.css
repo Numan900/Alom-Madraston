@@ -1,6 +1,18 @@
 /* Global Variables */
 html{
    --orange-back: rgb(244, 98, 58);
+   --text-color: rgba(255, 255, 255, 0.7);
+   --header:#fff;
+   --font-size-b: 20px;
+   --font-size-b-small: 15px;
+   --tran-time:.78s;
+   --font-size-h1:22px ;
+   --font-size-h1-small:22px ;
+   --font-size-p: ;
+   --font-size-p-small: 10px;
+
+
+
 }
 
 /* End Of Global Variables */
