@@ -1,3 +1,9 @@
+/* Global Variables */
+html{
+   --orange-back: rgb(244, 98, 58);
+}
+
+/* End Of Global Variables */
 *{
     margin: 0px;
     padding: 0px;

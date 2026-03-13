@@ -37,6 +37,8 @@ display: none;
 
 }
 /* End of  Media for nav-bar */
+
+/* backgrouned For section 1 */
 .img{
     background-image: url(../images/img/bg-masthead.jpg);
     height: 50vh;
@@ -44,3 +46,76 @@ display: none;
     background-size: cover;
     width: 100%;
 }
+/* End of backgrouned For section 1 */
+
+/* Strart Hero Section */
+.hero h1{
+color: #ffffff;
+}
+.hero p{
+    color:rgba(255, 255, 255, 0.75);
+
+}
+.hero button{
+    background-color: var(--orange-back);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    transition: background-color .78s;
+}
+.hero button:hover{
+    background-color: rgb(194, 69, 34);
+}
+
+
+.hero .row .details-hero{
+    height: 50vh;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+/* Media Quare For Hero Section */
+/* . Small .*/
+
+@media (max-width: 540px) {
+.hero .row .details-hero{
+    gap: 3px;
+    margin-top: 2px;
+
+}
+.hero button{
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 6px;
+}
+.hero h1{
+    font-size: 22px;
+}
+.hero p{
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+
+}
+/* End For Media Quare For Hero Section */
+
+/* 
+
+//----------------
+
+in the last step in project:
+ - make backround color for navbar .
+ - make menue appar when i click in icon .
+ - Learn about:
+  - postion (ab,re) and tran .
+  - align-items , jsu... when made flex-d: coloum .
+
+*/
