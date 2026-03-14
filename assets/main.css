@@ -120,12 +120,18 @@ color:var(--header);
 .find-more{
     text-align: center;
     background-color: var(--orange-back);
+    height: 40vh;
+    
 }
 .find-more .row{
     flex-direction: column;
     gap: 5px;
     justify-content: center;
     align-items: center;
+    
+}
+.details-find-more{
+    padding-top: 15px;
 }
 .find-more .row p{
     margin: 6px 0;
@@ -145,6 +151,7 @@ color:var(--header);
     background-color: #959ca3;
 }
 /* End Of Find more Section */
+
 /* Media Quare For Find More Section */
 /* . Small .*/
 
@@ -160,6 +167,53 @@ color:var(--header);
 }
 /* End Of Media Quare For Find More Section */
 
+/* Your Service Section  */
+.Your-Service {
+    text-align: center;
+    margin: 20px 0;
+}
+.par{
+    width: calc( (100% - 15px) / 4 );
+}
+.Your-Service .row {
+   gap: 5px;
+   flex-wrap: wrap;
+
+}
+
+.Your-Service .row p{
+    color: rgb(108, 117, 125);
+
+}
+.Your-Service  h2{
+    margin-bottom: 10px;
+}
+.Your-Service .row h3{
+    margin: 5px 0;
+}
+
+
+
+/* Media Quare For Your Service Section   */
+
+
+/* . Medium .*/
+
+@media (max-width: 760px) {
+ .par{
+    width:100%;
+}
+}
+
+/* . Large .*/
+
+@media screen and (min-width:761px) and (max-width: 992px) {
+.par{
+      width: calc( (100% - 5px) / 2 );
+}
+}
+
+/* End Of Media Quare For Your Service Section   */
 
 
 
